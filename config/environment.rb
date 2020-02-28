@@ -3,4 +3,5 @@ Bundler.require
 
 require_relative '../lib/student'
 
-DB = {:conn => SQLite3::Database.new("db/students.db")}
+# connection to the database assigned to the DB variable
+DB = {:conn => SQLite3::Database.new("db/students.db")} 
